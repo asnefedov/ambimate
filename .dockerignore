@@ -1,0 +1,72 @@
+# Django
+*.log
+*.pot
+__pycache__/
+db.sqlite3
+media
+
+# Backup files
+*.bak
+
+# Python
+*.py[cod]
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore Docker related files
+.dockerignore
+Dockerfile
+
+# Ignore version control system directories
+.git
+.gitignore
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific files
+*.env
+
+# Ignore IDE files
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Ignore static files and media
+/staticfiles
+/media
+
+# Ignore logs
+/logs
+
+# Ignore compiled files
+*.pyo
+*.pyd
+
+# Ignore test files
+*.pytest_cache/
+
+# Ignore system and hidden files
+*/.*
