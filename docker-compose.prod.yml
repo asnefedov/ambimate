@@ -17,10 +17,8 @@ services:
     image: postgres:15
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    environment:
-      - POSTGRES_USER=${SQL_USER}
-      - POSTGRES_PASSWORD=${SQL_PASSWORD}
-      - POSTGRES_DB=${SQL_DATABASE}
+    env_file:
+      - ./.env.prod
 
 volumes:
   postgres_data:
